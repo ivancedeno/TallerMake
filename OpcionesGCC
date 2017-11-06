@@ -3,7 +3,7 @@ Funcionamiento de los parámetros de GCC: -c -E -S
 Los archivos de entrada que no requieran preprocesamiento se ignoran.
 
 -c:Complia archivos fuentes, pero no enlaza archivos entre si, el resultado es un archivo de objeto ".O" para cada archivo fuente.
-Los archivos de entrada que no requieran preprocesamiento se ignoran.
+Los archivos de entrada que no son reconocidos no requieren compilación o ensamblaje, son ignorados.
 
 -S:Después de compilar el archivo fuente, la salida  tiene forma de código ensamblador para cada archivo de entrada no ensamblador 
 no especificado,Es decir se genera una salida ejecutable.
