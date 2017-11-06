@@ -1,0 +1,4 @@
+uncionamiento de los parámetros de GCC: -c -E -S
+-E:Deja de compilar en una etapa de preprocesamiento, la salida es en forma de código fuente, que se envá a la salida estándar.
+Los archivos de entrada que no requieran preprocesamiento se ignoran.
+
