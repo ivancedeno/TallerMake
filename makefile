@@ -1,9 +1,12 @@
 CC=gcc
 CFLAGS=-I.
-DEPS = hellomake.h
+DEPS = palindromo.h
+OBJ = palindromo.o palindromofunc.o 
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-hellomake: hellomake.o hellofunc.o 
-	gcc -o hellomake hellomake.o hellofunc.o -I.
+palindromo: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)
+
+
